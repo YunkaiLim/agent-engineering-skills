@@ -1,0 +1,11 @@
+interface:
+  display_name: Reuse First
+  short_description: Reuse, adapt, or combine proven solutions before custom building
+  default_prompt: Use $reuse-first to check existing and proven solutions before designing or implementing anything substantial, then return the smallest justified reuse, adapt, combine, or build decision.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
