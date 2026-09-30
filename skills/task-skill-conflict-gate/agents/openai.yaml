@@ -1,0 +1,11 @@
+interface:
+  display_name: Task Skill Conflict Gate
+  short_description: Lock the goal, detect real skill conflicts, and ask only when needed
+  default_prompt: Use $task-skill-conflict-gate to lock my task goal, identify only materially relevant skills, resolve compatible workflows silently, and ask me only when a genuine skill conflict would change scope, permissions, data handling, or acceptance criteria.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
