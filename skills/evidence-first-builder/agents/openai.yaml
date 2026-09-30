@@ -1,0 +1,16 @@
+interface:
+  display_name: Evidence First Builder
+  short_description: Research first, reuse proven solutions, verify, and audit bias
+  default_prompt: Use $evidence-first-builder to inspect my real environment, research
+    current existing solutions first, prefer evidence-backed reuse or adaptation,
+    execute if requested, verify the result, and self-audit evidence, commercial bias,
+    security, privacy, licensing, lock-in, and uncertainty before delivery.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
