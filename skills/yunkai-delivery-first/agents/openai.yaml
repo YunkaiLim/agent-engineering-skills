@@ -1,0 +1,11 @@
+interface:
+  display_name: Yunkai Delivery First
+  short_description: Deliver usable features fast with bounded scope and verification
+  default_prompt: Use $yunkai-delivery-first to turn this task into the smallest complete work packet that reaches a directly usable result with the minimum sufficient verification and no uncontrolled scope creep.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
