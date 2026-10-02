@@ -1,0 +1,11 @@
+interface:
+  display_name: Yunkai Token Efficiency
+  short_description: Reduce repeated context, research, logs, and multi-agent token waste
+  default_prompt: Use $yunkai-token-efficiency to minimize repeated context, duplicate research, oversized handoffs, and unnecessary token use while preserving the evidence needed for successful delivery.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
